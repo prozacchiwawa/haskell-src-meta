@@ -3,6 +3,4 @@ source-repository-package
   location: git://github.com/prozacchiwawa/haskell-src-exts.git
   branch: master
 
-packages: */*.cabal
-package haskell-src-meta
-  ghc-options: -Wall -Wcompat -Werror
+packages: .
